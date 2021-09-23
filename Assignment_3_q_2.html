@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #000;
+        margin: 16px, 16px;
+      }
+      div {
+        border: 3px solid #fff;
+        padding: 16px 16px;
+      }
+      h1 {
+        background-color: rgb(66, 233, 116);
+        width: max-content;
+
+        border: 2px solid white;
+        margin: auto;
+        padding: 5px 5px;
+        outline: 10px;
+        margin-top: 12px;
+        border-radius: 5px;
+        text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+      }
+
+      .heading {
+        color: green;
+      }
+
+      h2 {
+        text-shadow: 1px 1px 29px rgb(250, 246, 246);
+        letter-spacing: 2px;
+        font-weight: 300;
+        color: white;
+      }
+      p {
+        text-align: left;
+        padding: 16px 16px;
+      }
+      .ad {
+        color: blue;
+      }
+      .sd {
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+      }
+      .ad.sd {
+        font-style: italic;
+      }
+      ol li a:hover{
+          color: green;
+          
+      }
+
+      .Big {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Big">
+      <h2>Questin-No:2</h2>
+
+      <h2 class="heading">Selector</h2>
+      <p class="ad">
+        In CSS, selectors declare which part of the markup a style applies to by
+        matching tags and attributes in the markup itself. Selectors may apply
+        to the following: all elements of a specific type, e.g. the second-level
+        headers h2 elements specified by attribute, in particular: id: an
+        identifier unique within the document, identified with a hash prefix
+        e.g. #id class: an identifier that can annotate multiple elements in a
+        document, identified with a period prefix e.g. .classname elements
+        depending on how they are placed relative to others in the document
+        tree. Classes and IDs are case-sensitive, start with letters, and can
+        include alphanumeric characters, hyphens, and underscores. A class may
+        apply to any number of instances of any elements. An ID may only be
+        applied to a single element. Pseudo-classes are used in CSS selectors to
+        permit formatting based on information that is not contained in the
+        document tree. One example of a widely used pseudo-class is :hover,
+        which identifies content only when the user "points to" the visible
+        element, usually by holding the mouse cursor over it. It is appended to
+        a selector as in a:hover or #elementid:hover. A pseudo-class classifies
+        document elements, such as :link or :visited, whereas a pseudo-element
+        makes a selection that may consist of partial elements, such as
+        ::first-line or ::first-letter.[6] Selectors may be combined in many
+        ways to achieve great specificity and flexibility.[7] Multiple selectors
+        may be joined in a spaced list to specify elements by location, element
+        type, id, class, or any combination thereof. The order of the selectors
+        is important. For example, div .myClass {color: red;} applies to all
+        elements of class myClass that are inside div elements, whereas .myClass
+        div {color: red;} applies to all div elements that are inside elements
+        of class myClass. This is not to be confused with concatenated
+        identifiers such as div.myClass {color: red;} which applies to div
+        elements of class myClass.
+      </p>
+      <h2 class="heading">Declaration block</h2>
+      <p class="sd">
+        A declaration block consists of a list of declarations in braces. Each
+        declaration itself consists of a property, a colon (:), and a value. If
+        there are multiple declarations in a block, a semi-colon (;) must be
+        inserted to separate each declaration. An optional semi-colon after the
+        last (or single) declaration may be used.[9] Properties are specified in
+        the CSS standard. Each property has a set of possible values. Some
+        properties can affect any type of element, and others apply only to
+        particular groups of elements.[10][11] Values may be keywords, such as
+        "center" or "inherit", or numerical values, such as 200px (200 pixels),
+        50vw (50 percent of the viewport width) or 80% (80 percent of the parent
+        element's width). Color values can be specified with keywords (e.g.
+        "red"), hexadecimal values (e.g. #FF0000, also abbreviated as #F00), RGB
+        values on a 0 to 255 scale (e.g. rgb(255, 0, 0)), RGBA values that
+        specify both color and alpha transparency (e.g. rgba(255, 0, 0, 0.8)),
+        or HSL or HSLA values (e.g. hsl(000, 100%, 50%), hsla(000, 100%, 50%,
+        80%)).[12]
+      </p>
+      <h2 class="heading">Declaration block</h2>
+      <p class="ad sd">
+        Non-zero numeric values representing linear measures must include a
+        length unit, which is either an alphabetic code or abbreviation, as in
+        200px or 50vw; or a percentage sign, as in 80%. Some units – cm
+        (centimetre); in (inch); mm (millimetre); pc (pica); and pt (point) –
+        are absolute, which means that the rendered dimension does not depend
+        upon the structure of the page; others – em (em); ex (ex) and px (pixel)
+        – are relative, which means that factors such as the font size of a
+        parent element can affect the rendered measurement. These eight units
+        were a feature of CSS 1[13] and retained in all subsequent revisions.
+        The proposed CSS Values and Units Module Level 3 will, if adopted as a
+        W3C Recommendation, provide seven further length units: ch; Q; rem; vh;
+        vmax; vmin; and vw.
+      </p>
+      <div>
+        <ol>
+           <h1>Link For Other Questions</h1>
+
+           <li style="color: #fff;">Click Here <a style="text-decoration: none; font-size: 40px; " href="Assingment3_q_1.html" target="_blank">Question 1</a></li>
+           <li style="color: #fff;">Click Here <a style="text-decoration: none; font-size: 40px; " href="Assingment3_q_3.html" target="_blank">Question 3</a></li>
+           <li style="color: #fff;">Click Here <a style="text-decoration: none; font-size: 40px; " href="Assingment3_q_4.html" target="_blank">Question 4</a></li>
+        </ol>
+     </div>
+    </div>
+  </body>
+</html>
