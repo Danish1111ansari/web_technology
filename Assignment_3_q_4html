@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #000;
+        margin: 16px, 16px;
+      }
+      div {
+        border: 3px solid #fff;
+        padding: 16px 16px;
+      }
+      h1 {
+        background-color: rgb(66, 233, 116);
+        width: max-content;
+        text-align: center;
+        border: 2px solid white;
+        margin: auto;
+        padding: 5px 5px;
+        outline: 10px;
+        margin-top: 12px;
+        border-radius: 5px;
+        text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+      }
+
+      .heading {
+        color: green;
+      }
+
+      h2 {
+        text-shadow: 1px 1px 29px rgb(250, 246, 246);
+        letter-spacing: 2px;
+        font-weight: 300;
+        color: white;
+      }
+      p {
+        text-align: left;
+        padding: 16px 16px;
+        word-spacing: 2px;
+      }
+
+      ol li a:hover {
+        color: green;
+      }
+      .Big {
+        font-size: 20px;
+      }
+      p.Big {
+        font-size: 20px;
+        background-color: green;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Big">
+      <h2>Question-No:4</h2>
+
+      <h2 class="heading">Specificity</h2>
+      <p class="Big">
+        Inheritance is a key feature in CSS; it relies on the
+        ancestor-descendant relationship to operate. Inheritance is the
+        mechanism by which properties are applied not only to a specified
+        element, but also to its descendants.[16] Inheritance relies on the
+        document tree, which is the hierarchy of XHTML elements in a page based
+        on nesting. Descendant elements may inherit CSS property values from any
+        ancestor element enclosing them. In general, descendant elements inherit
+        text-related properties, but their box-related properties are not
+        inherited. Properties that can be inherited are color, font,
+        letter-spacing, line-height, list-style, text-align, text-indent,
+        text-transform, visibility, white-space and word-spacing. Properties
+        that cannot be inherited are background, border, display, float and
+        clear, height, and width, margin, min- and max-height and -width,
+        outline, overflow, padding, position, text-decoration, vertical-align
+        and z-index. Inheritance can be used to avoid declaring certain
+        properties over and over again in a style sheet, allowing for shorter
+        CSS. Inheritance in CSS is not the same as inheritance in class-based
+        programming languages, where it is possible to define class B as "like
+        class A, but with modifications".[18] With CSS, it is possible to style
+        an element with "class A, but with modifications". However, it is not
+        possible to define a CSS class B like that, which could then be used to
+        style multiple elements without having to repeat the modifications. CSS
+        was first proposed by Håkon Wium Lie on October 10, 1994.[22] At the
+        time, Lie was working with Tim Berners-Lee at CERN.[23] Several other
+        style sheet languages for the web were proposed around the same time,
+        and discussions on public mailing lists and inside World Wide Web
+        Consortium resulted in the first W3C CSS Recommendation (CSS1)[24] being
+        released in 1996. In particular, a proposal by Bert Bos was influential;
+        he became co-author of CSS1, and is regarded as co-creator of CSS.[25]
+        Style sheets have existed in one form or another since the beginnings of
+        Standard Generalized Markup Language (SGML) in the 1980s, and CSS was
+        developed to provide style sheets for the web.[26] One requirement for a
+        web style sheet language was for style sheets to come from different
+        sources on the web. Therefore, existing style sheet languages like DSSSL
+        and FOSI were not suitable. CSS, on the other hand, let a document's
+        style be influenced by multiple style sheets by way of "cascading"
+        styles.[26] As HTML grew, it came to encompass a wider variety of
+        stylistic capabilities to meet the demands of web developers. This
+        evolution gave the designer more control over site appearance, at the
+        cost of more complex HTML. Variations in web browser implementations,
+        such as ViolaWWW and WorldWideWeb,[27] made consistent site appearance
+        difficult, and users had less control over how web content was
+        displayed. The browser/editor developed by Tim Berners-Lee had style
+        sheets that were hard-coded into the program. The style sheets could
+        therefore not be linked to documents on the web.[23] Robert Cailliau,
+        also of CERN, wanted to separate the structure from the presentation so
+        that different style sheets could describe different presentation for
+        printing, screen-based presentations, and editors.[27] Improving web
+        presentation capabilities was a topic of interest to many in the web
+        community and nine different style sheet languages were proposed on the
+        www-style mailing list.[26] Of these nine proposals, two were especially
+        influential on what became CSS: Cascading HTML Style Sheets[22] and
+        Stream-based Style Sheet Proposal (SSP).[25][28] Two browsers served as
+        testbeds for the initial proposals; Lie worked with Yves Lafon to
+        implement CSS in Dave Raggett's Arena browser.[29][30][31] Bert Bos
+        implemented his own SSP proposal in the Argo browser.[25] Thereafter,
+        Lie and Bos worked together to develop the CSS standard (the 'H' was
+        removed from the name because these style sheets could also be applied
+        to other markup languages besides HTML).[23]
+      </p>
+      <div>
+        <ol>
+          <h1>Link For Other Questions</h1>
+
+          <li style="color: #fff">
+            Click Here
+            <a
+              style="text-decoration: none; font-size: 40px"
+              href="Assingment3_q_1.html"
+              target="_blank"
+              >Question 1</a
+            >
+          </li>
+          <li style="color: #fff">
+            Click Here
+            <a
+              style="text-decoration: none; font-size: 40px"
+              href="Assingment3_q_2.html"
+              target="_blank"
+              >Question 2</a
+            >
+          </li>
+          <li style="color: #fff">
+            Click Here
+            <a
+              style="text-decoration: none; font-size: 40px"
+              href="Assingment3_q_3.html"
+              target="_blank"
+              >Question 3</a
+            >
+          </li>
+        </ol>
+      </div>
+    </div>
+  </body>
+</html>
