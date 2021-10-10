@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-modle</title>
+    <style>
+        body{
+            border:3px  white solid;
+  
+    padding: 4px 4px;
+        }
+        .h-div{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .heading {
+            background-color: rgb(85, 108, 236);
+        width:max-content;
+    border:5px solid rgb(15, 15, 15);
+    padding: 4px 4px;
+   
+   
+}
+
+.content_h{
+    background-color: rgb(125, 134, 219);
+        width:max-content;
+    border:2px solid #fff;
+    padding: 4px 4px;
+    margin-left: 12px;
+    border-radius: 5px;
+
+}
+.content_h1{
+    color: #fff;
+   text-align: center;
+
+}
+.about_css{
+    width: 40%;
+  height: 200px;
+    border: 20px solid rgb(233, 149, 149) ;
+   margin-left: 350px;
+   background: rgb(219, 62, 62);
+   overflow: scroll;
+   text-align: justify;
+}
+.about_css p{
+    color: #fff;
+   text-align: center;
+   font-size: large;
+}
+.content_heading{
+    color: #fff;
+   text-align: center;
+   COLOR:rgb(122, 122, 224);
+   font-family: monospace;
+}
+.flex1_container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    padding: 12px 12px;
+    overflow: scroll;
+    background-color: blue;
+
+}
+.image{
+    margin: 4px 4px ;
+}
+.image img{
+    width: 200px;
+    height: 200px;
+}
+.flex-container2 {
+    margin-right: 120px;
+  background-color: pink;
+   border: 5px solid rgb(228, 18, 18);
+   height:200px;
+   width:100%;
+   display:flex;
+    align-items: center;
+   justify-Content:space-between;
+ }
+ .box{
+background-color:#121312;
+border: 5px solid rgb(233, 226, 226);
+width: 200px;
+margin:10px;
+padding: 25px;
+text-align: center;
+color: white;
+}
+
+#box1{
+  flex:3 2;
+}
+#box4{
+  flex:1 3 200px;
+}
+
+    </style>
+</head>
+<body style="background-color: rgb(70, 59, 47);">
+    <div class="h-div" >
+        <h1 class="heading">
+          Flex
+        </h1>
+    </div>
+    <div>
+        <h2  class="content_h" >Mohd Danish Ansari</h2>
+        <h2  class="content_h" >2006164</h2>
+    </div>
+    
+    <div class="about_css">
+        <h2 class="content_h1" >CSS flex Property</h2>
+<p>
+     The flex property in CSS is the combination of flex-grow, flex-shrink, and flex-basis property.<br>
+     It is used to set the length of flexible items. The flex property is much responsive and mobile friendly.<br>
+     It is easy to positioning child elements and the main container. The margin doesn’t collapse with the content margins.<br>
+     Order of any element can be easily changed without editing the HTML section.
+</p>
+
+    </div>
+
+<h1 class="content_heading">1=>FLEX-WRAP AND FLEX-FLOW</h1>
+
+<div class="flex1_container">
+    <div class="image"><img src="" ></div>
+    <div class="image"><img src="download (1).jfif"></div>
+    <div class="image"><img src=" download (2).jfif"></div>
+    <div class="image"><img src=" download (3).jfif"></div>
+    <div class="image"><img src=" download (4).jfif"></div>
+    <div class="image"><img src=" download (5).jfif"></div>
+    <div class="image"><img src=" download (6).jfif"></div>
+    <div class="image"><img src=" download (7).jfif"></div>
+    <div class="image"><img src=" download (8).jfif"></div>
+    <div class="image"><img src="download (9).jfif"></div>  
+</div>
+
+
+
+<h1 class="content_heading">2=>FLEX-GROW FLEX-SHRINK AND FLEX-BASICS</h1>
+<div class="flex-container2">
+    <div class="box" id="box1">BOX1</div>
+    <div class="box" id="box2">BOX2</div>
+    <div class="box" id="box3">BOX3</div>
+    <div class="box" id="box4">BOX4</div>
+
+  </div>
+
+
+    
+    
+</body>
+</html>
